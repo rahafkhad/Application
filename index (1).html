@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <style>
+        *{
+            padding: 0;
+            margin:0;
+        }
+        header{
+            height:100px;
+           width:100%;  
+           background-image:linear-gradient(to right,rgb(142, 142, 183),rgb(55, 55, 250))  ;   
+     }
+     .box{
+        width:30%;
+        height:100%;
+        float: right;
+        background-color: aliceblue;
+     }
+     #h1head{
+        float: left;
+        line-height: 100px;
+        padding: 0 20px;
+     }
+     #image{
+        width: 150px;
+        border-radius: 50%;
+     }
+    nav{
+        width:70%;
+        text-align: center;
+     }
+     nav a{
+        text-decoration:none ;
+        color: antiquewhite;
+     }
+     nav a:hover{
+        color:black;
+     }
+     nav li{
+        display: inline-block;
+        line-height:100px;
+        width: 100px;
+        background-color: rgb(36, 69, 131);
+        font-weight: bold;
+        font-size: large;
+         
+     }
+     main{
+        width: 100%;
+        height: 500px;
+        background-color: rgb(127, 176, 176);
+        border-top: 4px solid black;
+        animation-name:chbg;
+        animation-duration: 3s;
+     }
+     @keyframes chbg {
+        0%
+        {background-color: aquamarine;}
+
+        
+        25%{
+background-color: azure;
+        }
+        50%{
+background-color: white;
+        }
+        100%{
+background-color: aqua;
+        }
+        
+     }
+     aside{
+        width:28%;
+        height: 100%;
+        background-color: aqua;
+        border-right: 2px solid black;
+        text-align: center;
+        float: left;
+       
+     }
+     aside img{
+        width: 100%;
+        height: 60%;
+     }
+     aside h2{
+        border: 3px solid rgb(75, 14, 125);
+        color: rgb(49, 37, 37);
+     }
+     #art{
+        width: 70%;
+        height: 500px;
+        background-color: rgba(45, 67, 206, 0.311);
+        float:right;
+        position: relative;
+         
+
+     }
+     .hre{
+        width:20%;
+        height:150px;
+         position:absolute;
+         background-color: rgb(65, 73, 102);
+         color: aliceblue;
+         bottom:40%;
+         left: 40%;
+          text-align: center;
+           
+
+     }
+     #contact{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+     }
+
+     </style>
+</head>
+<body>
+     <header>
+        <span class="box">
+            <a href="https://www.bing.com/videos/search?q=english+courses&&view=detail&mid=EA4C334BDB1D39E315AEEA4C334BDB1D39E315AE&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Denglish%2Bcourses%26FORM%3DHDRSC3"> <h1 id="h1head">English Learning</h1></a>
+            <img  id="image" src="ee.jpg"/>
+
+        </span>
+        <nav>
+            <ul>
+        <a href="https://www.bing.com/ck/a?!&&p=01e7d8d2f83dad5aJmltdHM9MTY2NjkxNTIwMCZpZ3VpZD0yYWRjNTUxZi01OTIzLTY5YmQtMzJiNi00NzIzNThjYjY4NmImaW5zaWQ9NTI0Mg&ptn=3&hsh=3&fclid=2adc551f-5923-69bd-32b6-472358cb686b&psq=free+english+courses&u=a1aHR0cHM6Ly93d3cudWRlbXkuY29tL3RvcGljL2VuZ2xpc2gtbGFuZ3VhZ2UvZnJlZS8&ntb=1"><li>Free courses</li></a>
+
+        <a href="https://www.bing.com/ck/a?!&&p=9c0d5fd8a5806677JmltdHM9MTY2NjkxNTIwMCZpZ3VpZD0yYWRjNTUxZi01OTIzLTY5YmQtMzJiNi00NzIzNThjYjY4NmImaW5zaWQ9NTE4OA&ptn=3&hsh=3&fclid=2adc551f-5923-69bd-32b6-472358cb686b&psq=payed+english+course&u=a1aHR0cHM6Ly9vbmVtaW51dGVlbmdsaXNoLm9yZy9lbi9iZXN0LW9ubGluZS1lbmdsaXNoLWNvdXJzZS1wYWlkLw&ntb=1"><li>paid courses </li></a>
+        
+            </ul>
+        </nav>
+     </header>
+     <main>
+<aside>
+  <a href="https://www.bing.com/aclk?ld=e8peEMtq_h3_W6NRb0Am0gGDVUCUyb82fq13HrG4fbXY50c-t8CwAXwOMHrC9ejV1PA_YWxSduwuD4K7sb0-7rCmTvgIgu_WjziQ5mXHSBCw-Km3GhSQm95II4pfD6aS3eMeY2_m4AAlWfcw1EDh8dnmiGHZgHmUZbhQCDDb8pWx9gDQlLaU0XOHS0qYoAAzGjVuxO2A&u=aHR0cHMlM2ElMmYlMmZ3d3cudGFsa2Rpc3RyaWN0LmNvbSUyZmJlc3QtbGFuZ3VhZ2UtbGVhcm5pbmctYXBwcyUyZiUzZmtleXdvcmQlM2RlbmdsaXNoJTI1MjBsYW5ndWFnZSUyNTIwbGVhcm5pbmclMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RJbmRpYSUyNTIwVHJhZmZpYyUyNnV0bV90ZXJtJTNkZW5nbGlzaCUyNTIwbGFuZ3VhZ2UlMjUyMGxlYXJuaW5nJTI2dXRtX2NvbnRlbnQlM2RCZXN0JTI1MjBMYW5ndWFnZSUyNTIwTGVhcm5pbmclMjUyMEFwcHM&rlid=2edb262d20ae1221b46745710659f153&ntb=1"><img src="kk.jpg"/><a>
+   <h2>Learn English with us!</h2>
+   <div id="contact">
+    <a href=" "><img src= "facebook1.png"/></a>
+    <a href=" "><img src="twitter2.png"/></a>
+     
+   </div>
+</aside>
+<article id="art">
+<div class="hre" >
+<h1>English  Learning </h1>
+<p> iam an English teacher,study english in tishreen university/syria 
+    and now iam living in hyderabad/india
+</p>
+</div>
+</article>
+     </main>
+</body>
+</html>
